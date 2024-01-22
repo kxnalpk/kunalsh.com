@@ -13,6 +13,8 @@ body {
     max-width: 753px;
 }
 
+/* Header */
+
 .avatar {
     width: 105px;
     height: 105px;
@@ -56,3 +58,5 @@ body {
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
+
+/* Header Ended */
