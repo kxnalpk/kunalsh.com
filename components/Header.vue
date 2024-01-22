@@ -8,5 +8,9 @@
                 <p class="header_sub-heading">Web & App Developer</p>
             </div>
         </div>
+
+        <div class="contact">
+            <a class="contact-text" href="mailto:contact@kunalsh.com">Send an email at contact@kunalsh.com to contact me!</a>
+        </div>
     </header>
 </template>
