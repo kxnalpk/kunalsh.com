@@ -1,5 +1,5 @@
-git clone `https://github.com/kunalsmh/kunalsh.com.git`
+- git clone `https://github.com/kunalsmh/kunalsh.com.git`
 
-npm install
+- npm install
 
-npm run dev
+- npm run dev
