@@ -6,3 +6,9 @@ useSeoMeta({
   ogDescription: 'I\'m a 17 years old student and a developer. I write code in rust, ts & js.',
 })
 </script>
+
+<template>
+   <main class="container">
+    <Header />
+   </main>
+</template>
