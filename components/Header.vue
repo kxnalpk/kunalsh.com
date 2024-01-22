@@ -1,16 +1,15 @@
 <template>
-    <header class="header">
-        <img src="/images/banner.png" width="752.5px" alt="banner" class="banner"/>
-        <div class="occupation">
-            <img src="/images/avatar.png" width="105px" alt="avatar" class="avatar" />
+    <header class="max-w-header">
+        <img src="/images/banner.png" alt="banner"/>
+        <div class="gap-c1 mt-c1 flex flex-nowrap items-center text-white">
+            <img src="/images/avatar.png" width="105px" alt="avatar" class="rounded-full" />
             <div>
-                <h1 class="header_heading">Kunal</h1>
-                <p class="header_sub-heading">Web & App Developer</p>
+                <h1 class="font-inter text-[25px]">Kunal</h1>
+                <p class="font-inter text-[17px] text-cg-1">Web & App Developer</p>
             </div>
         </div>
-
-        <div class="contact">
-            <a class="contact-text" href="mailto:contact@kunalsh.com">Send an email at contact@kunalsh.com to contact me!</a>
+        <div class="bg-cg-2 text-white mt-c1 p-a1 rounded-d1">
+            <a class="contact-text" href="mailto:contact@kunalsh.com">Mail at contact@kunalsh.com to contact me!</a>
         </div>
     </header>
 </template>

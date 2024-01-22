@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     background-color: #161616;
-    margin: auto;
+    /*margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-}
-
-.container {
-    max-width: 753px;
+    height: 100vh; */
 }
 
 /* Header */
 
-.avatar {
+/*.avatar {
     width: 105px;
     height: 105px;
     border-radius: 50%;
@@ -59,4 +59,4 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* Header Ended */
+*/
