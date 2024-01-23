@@ -17,13 +17,13 @@ export default {
                 },
                 {
                     name: "Dante",
-                    username: "priyobrotokar",
+                    username: "@priyobrotokar",
                     text: "Hiftie is a creative powerhouse mastering web development and eye-catching design. He dives fearlessly into projects, whipping up impressive solutions, as well as spreading knowledge.",
                     img: "/images/testimonials/dante.png"
                 },
                 {
                     name: "Polycord",
-                    username: "polycord",
+                    username: "@polycord",
                     text: "Hiftie is an amazing UI/UX designer and developer! He does the job in a fast speed and comes out perfect every time. I can trust him with anything and he’s also a very good friend!",
                     img: "/images/testimonials/polycord.png"
                 }
