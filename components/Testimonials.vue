@@ -12,7 +12,7 @@ export default {
                 {
                     name: "Rony",
                     username: "@ronykax",
-                    text: "Hiftie is an awesome developer and a pro at many other things! They make everything look good and work great. Working with him is always fun and he's a really good friend too!",
+                    text: "Hiftie is an awesome developer and a pro at many other things! He makes everything look good and work great. Working with him is always fun and he's a really good friend too!",
                     img: "/images/testimonials/rony.png",
                 },
                 {
