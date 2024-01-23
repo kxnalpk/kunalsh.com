@@ -8,7 +8,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="px-4 m-auto flex flex-col justify-center items-center h-screen">
+  <main class="py-8 px-4 m-auto flex flex-col justify-center items-center">
     <Header />
     <About />
     <Experience />
