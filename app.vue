@@ -8,7 +8,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="px-a1 m-auto flex flex-col justify-center items-center h-screen">
+  <main class="px-4 m-auto flex flex-col justify-center items-center h-screen">
     <Header />
     <About />
     <Experience />

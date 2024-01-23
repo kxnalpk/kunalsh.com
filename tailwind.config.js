@@ -13,9 +13,6 @@ module.exports = {
       fontFamily: {
         inter: ['Inter']
       },
-      height: {
-        'b2': '120px',
-      },
       maxWidth: {
         'desktop': '753px',
         'mobile': '509px',

@@ -8,7 +8,7 @@
                 <p class="font-inter text-lg text-cg-1">Web & App Developer</p>
             </div>
         </div>
-        <div class="bg-cg-2 text-white mt-6 p-4 rounded-d1">
+        <div class="bg-cg-2 text-white mt-6 p-4 rounded-lg">
             <a href="mailto:contact@kunalsh.com">Mail at contact@kunalsh.com to contact me</a>
         </div>
     </header>
