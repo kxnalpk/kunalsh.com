@@ -11,28 +11,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter']
+        rubik: ['Rubik']
       },
       maxWidth: {
         'desktop': '753px',
         'mobile': '509px',
         'wrapper': '752.5px',
-      },
-      margin: {
-        'a2': '32px',
-        'c1': '25px',
-        'c2': '50px',
-      },
-      gap: {
-        'd1': '9px',
-        'c1': '25px',
-      },
-      padding: {
-        'a1': '16px',
-        'a2': '32px',
-      },
-      borderRadius: {
-        'd1': '9px'
       },
       colors: {
         'cg-1': "#BDBDBD",
