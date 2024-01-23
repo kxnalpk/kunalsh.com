@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-    <div class="max-w-wrapper w-full">
+    <div class="w-full">
         <h1 class="text-white text-2xl mt-6">Projects</h1>
 
         <div v-for="(project, index) in projects" :key="index" class="items-center justify-between mt-6 flex gap-8">
