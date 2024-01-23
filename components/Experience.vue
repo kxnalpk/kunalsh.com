@@ -22,7 +22,7 @@ export default {
 <template>
     <div class="w-full">
         <h1 class="text-white text-2xl mt-6">Experience</h1>
-        <div v-for="(experience, index) in experiences" :key="index" class="items-center justify-between mt-6 flex gap-8 bg-cg-2 p-4">
+        <div v-for="(experience, index) in experiences" :key="index" class="items-center justify-between mt-6 flex gap-8 rounded-lg bg-cg-2 p-4">
             <div class="flex flex-row items-center gap-2.5">
                 <NuxtImg class="w-12 rounded-full" :src="experience.img"/>
                 <h1 class="text-white text-xl font-inter font-medium">{{ experience.title }}</h1>
