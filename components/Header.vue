@@ -1,8 +1,8 @@
 <template>
     <header class="max-w-wrapper">
-        <img src="/images/banner.png" alt="banner" class="w-full object-cover" />
+        <NuxtImg src="/images/banner.png" alt="banner" class="w-full object-cover" />
         <div class="gap-6 mt-6 flex flex-nowrap items-center text-white">
-            <img src="/images/avatar.png" width="105px" alt="avatar" class="rounded-full object-cover" />
+            <NuxtImg src="/images/avatar.png" width="105px" alt="avatar" class="rounded-full object-cover" />
             <div>
                 <h1 class="font-inter text-2xl">Kunal</h1>
                 <p class="font-inter text-lg text-cg-1">Web & App Developer</p>
