@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="w-full">
         <NuxtImg src="/images/banner.png" alt="banner" class="w-full object-cover" />
         <div class="gap-6 mt-6 flex flex-nowrap items-center text-white">
             <NuxtImg src="/images/avatar.png" width="105px" alt="avatar" class="rounded-full object-cover" />
