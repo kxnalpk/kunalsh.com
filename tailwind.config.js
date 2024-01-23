@@ -27,6 +27,7 @@ module.exports = {
         'c2': '50px',
       },
       gap: {
+        'd1': '9px',
         'c1': '25px',
       },
       padding: {
