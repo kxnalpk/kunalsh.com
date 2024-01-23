@@ -1,5 +1,5 @@
 <template>
-    <header class="max-w-wrapper">
+    <header class="pt-48 max-w-wrapper">
         <img src="/images/banner.png" alt="banner" class="w-full object-cover" />
         <div class="gap-6 mt-6 flex flex-nowrap items-center text-white">
             <img src="/images/avatar.png" width="105px" alt="avatar" class="rounded-full object-cover" />
