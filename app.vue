@@ -14,5 +14,6 @@ useSeoMeta({
     <About />
     <Experience />
     <Projects />
+    <Testimonials />
   </main>
 </template>
