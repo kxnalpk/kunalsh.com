@@ -22,12 +22,12 @@ export default {
 </script>
 
 <template>
-    <div class="w-full">
+    <div class="font-rubik w-full">
         <h1 class="text-white text-2xl mt-6">Projects</h1>
 
         <div v-for="(project, index) in projects" :key="index" class="items-center justify-between mt-6 flex gap-8">
             <div class="flex flex-row items-center gap-2.5">
-                <h1 class="text-cg-3 text-base font-inter font-medium">{{ project.timeline }}</h1>
+                <h1 class="text-cg-3 text-base font-medium">{{ project.timeline }}</h1>
             </div>
             <div class="max-w-xl">
                 <a :href="project.url" class=" text-white hover:underline hover:underline-offset-4">{{ project.title }}</a>

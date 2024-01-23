@@ -18,13 +18,13 @@ export default {
                 {
                     name: "Dante",
                     username: "@priyobrotokar",
-                    text: "Kunal is a creative powerhouse mastering web development and eye-catching design. He dives fearlessly into projects, whipping up impressive solutions, as well as spreading knowledge.",
+                    text: "Kunal is a creative powerhouse mastering web development and eye-catching design. He dives fearlessly into projects, whipping up impressive solutions and knowledge.",
                     img: "/images/testimonials/dante.png"
                 },
                 {
                     name: "Polycord",
                     username: "@polycord",
-                    text: "Kunal is an amazing UI/UX designer and developer! He does the job in a fast speed and comes out perfect every time. I can trust him with anything and he’s also a very good friend!",
+                    text: "Kunal is an amazing UI/UX designer and developer! He does the job in a fast speed and comes out perfect every time. I can trust him with anything and he’s also a good friend!",
                     img: "/images/testimonials/polycord.png"
                 }
             ]
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-    <div class="w-full grid grid-cols-1 gap-8 sm:grid-cols-2">
+    <div class="font-rubik w-full grid grid-cols-1 gap-8 sm:grid-cols-2">
       <h1 class="text-white text-2xl mt-6 col-span-full">Testimonials</h1>
       <div v-for="(testimonial, index) in testimonials" :key="index" class="flex flex-col gap-8 rounded-lg">
         <div class="flex flex-row items-center gap-2.5">
