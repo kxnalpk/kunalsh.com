@@ -42,7 +42,7 @@ export default {
       <h1 class="text-white text-xl font-kanit text-normal mt-6 col-span-full">Testimonials</h1>
       <div v-for="(testimonial, index) in testimonials" :key="index" class="g-cg-2 p-4 bg-cg-2 flex flex-col gap-8 rounded-lg">
         <div class="flex flex-row items-center gap-2.5">
-          <NuxtImg class="w-12 rounded-full" width="48" :alt="testimonial.alt" :src="testimonial.img" />
+          <NuxtImg class="w-12 rounded-full" width="48" height="48" :alt="testimonial.alt" :src="testimonial.img" />
           <header class="flex flex-col">
             <h1 class="text-white text-lg font-kanit font-normal">{{ testimonial.name }}</h1>
             <p class="text-cg-4 font-kanit font-light">{{ testimonial.username }}</p>
