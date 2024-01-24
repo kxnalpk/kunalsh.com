@@ -8,18 +8,22 @@ export default {
                 {
                     "img": "/images/socials/github.svg",
                     "url": "https://github.com/kunalsm/h",
+                    "alt": "github",
                 },
                 {
                     "img": "/images/socials/discord.svg",
-                    "url": "https://discord.com/users/853147823066578946/"
+                    "url": "https://discord.com/users/853147823066578946/",
+                    "alt": "discord",
                 },
                 {
                     "img": "/images/socials/x.svg",
                     "url": "https://x.com/hiftea/",
+                    "alt": "x",
                 },
                 {
                     "img": "/images/socials/insta.svg",
-                    "url": "https://instagram.com/@kunal90ti/"
+                    "url": "https://instagram.com/@kunal90ti/",
+                    "alt": "insta",
                 },
             ]
         };
@@ -39,7 +43,7 @@ console.log(data);
                 <h1 class="font-kanit font-medium text-5xl">Kunal Sharma</h1>
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
                 <div class="flex gap-2 mt-3">
-                    <NuxtImg loading="lazy" v-for="(social, index) in socials" :key="index"
+                    <NuxtImg :alt="social.alt" loading="lazy" v-for="(social, index) in socials" :key="index"
                         class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" width="20px" :src="social.img">
                     </NuxtImg>
 

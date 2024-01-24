@@ -8,24 +8,28 @@ export default {
                     username: "@legendfroggy",
                     text: "When I first saw kunal on DAC and CA, he was amusing and looked really good. I see him now as the same fascinating person who loves capybaras and programming.",
                     img: "/images/testimonials/browny.png",
+                    alt: "browny",
                 },
                 {
                     name: "Rony",
                     username: "@ronykax",
                     text: "Kunal is an awesome developer and a pro at many other things! He makes everything look good and work great. Working with him is always fun and he's a really good.",
                     img: "/images/testimonials/rony.png",
+                    alt: "rony",
                 },
                 {
                     name: "Dante",
                     username: "@priyobrotokar",
                     text: "Kunal is a creative powerhouse mastering web development and eye-catching design. He dives fearlessly into projects, whipping up impressive solutions and knowledge.",
-                    img: "/images/testimonials/dante.png"
+                    img: "/images/testimonials/dante.png",
+                    alt: "dante",
                 },
                 {
                     name: "Polycord",
                     username: "@polycord",
                     text: "Kunal is an amazing UI/UX designer and developer! He does the job in a fast speed and comes out perfect every time. I can trust him with anything and he’s also a good guy!",
-                    img: "/images/testimonials/polycord.png"
+                    img: "/images/testimonials/polycord.png",
+                    alt: "pratik",
                 }
             ]
         };
@@ -38,7 +42,7 @@ export default {
       <h1 class="text-white text-xl font-kanit text-normal mt-6 col-span-full">Testimonials</h1>
       <div v-for="(testimonial, index) in testimonials" :key="index" class="g-cg-2 p-4 bg-cg-2 flex flex-col gap-8 rounded-lg">
         <div class="flex flex-row items-center gap-2.5">
-          <NuxtImg class="w-12 rounded-full" :src="testimonial.img" />
+          <NuxtImg class="w-12 rounded-full" :alt="testimonial.alt" :src="testimonial.img" />
           <header class="flex flex-col">
             <h1 class="text-white text-lg font-kanit font-normal">{{ testimonial.name }}</h1>
             <p class="text-cg-4 font-kanit font-light">{{ testimonial.username }}</p>
