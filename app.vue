@@ -12,7 +12,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="items-stretch max-w-wrapper pt-8 px-4 m-auto flex flex-col justify-center">
+  <main class="items-stretch max-w-wrapper pt-24 px-4 m-auto flex flex-col justify-center">
     <Header />
     <About />
     <Projects />
