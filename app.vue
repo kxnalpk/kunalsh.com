@@ -16,13 +16,30 @@ useHead({
 </script>
 
 <template>
-    <div class="text-white">
-  </div>
-  <main class="items-stretch max-w-wrapper pt-24 px-4 m-auto flex flex-col justify-center">
-    <Header />
-    <About />
-    <Projects />
-    <Testimonials />
-    <Footer />
+  <main v-if="isPageLoaded" class="items-stretch max-w-wrapper pt-24 px-4 m-auto flex flex-col justify-center">
+    <Transition name="fade" appear>
+      <header>
+        <Header />
+      <About />
+      <Projects />
+      <Testimonials />
+      <Footer />
+      </header>
+    </Transition>
   </main>
 </template>
+
+<script lang="ts">
+export default {
+  data() {
+    return {
+      isPageLoaded: false,
+    };
+  },
+  mounted() {
+    setTimeout(() => {
+      this.isPageLoaded = true;
+    }, 100);
+  },
+};
+</script>
