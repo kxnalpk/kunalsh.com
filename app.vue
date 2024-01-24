@@ -11,19 +11,24 @@ useSeoMeta({
 });
 
 useHead({
-  link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png'}]
+  link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
 })
 </script>
 
 <template>
   <main v-if="isPageLoaded" class="items-stretch max-w-wrapper pt-6 sm:pt-24 px-4 m-auto flex flex-col justify-center">
-    <Transition name="fade" appear>
+    <Transition name="fade1" appear>
       <header>
         <Header />
-      <About />
-      <Projects />
-      <Testimonials />
-      <Footer />
+        <About />
+      </header>
+    </Transition>
+
+    <Transition name="fade2" appear>
+      <header>
+        <Projects />
+        <Testimonials />
+        <Footer />
       </header>
     </Transition>
   </main>
