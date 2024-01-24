@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik']
+        kanit: ['Kanit']
       },
       maxWidth: {
         'desktop': '753px',

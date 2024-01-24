@@ -15,7 +15,6 @@ useSeoMeta({
   <main class="items-stretch max-w-wrapper py-8 px-4 m-auto flex flex-col justify-center">
     <Header />
     <About />
-    <Experience />
     <Projects />
     <Testimonials />
   </main>
