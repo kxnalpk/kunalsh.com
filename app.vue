@@ -12,6 +12,8 @@ useSeoMeta({
 </script>
 
 <template>
+    <div class="text-white">
+  </div>
   <main class="items-stretch max-w-wrapper pt-24 px-4 m-auto flex flex-col justify-center">
     <Header />
     <About />
@@ -19,5 +21,4 @@ useSeoMeta({
     <Testimonials />
     <Footer />
   </main>
-
 </template>

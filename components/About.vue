@@ -1,5 +1,5 @@
 <template>
-  <header class="mt-6">
+  <header class="mt-12">
     <h1 class="text-white text-xl font-kanit font-normal">About</h1>
     <p class="mt-2 text-white opacity-75 font-rubik font-normal">howdy? i'm a student and a software
       developer. I write code in rust, ts and js. I offer web & app development services. oh and i love capybaras and
