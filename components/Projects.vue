@@ -4,16 +4,12 @@ export default {
         return {
             projects: [
                 {
-                    title: ".hif format",
-                    des: "My own image file format created for fun! Install the \"hif_opener.exe\" to open hif files. clone the repo and compile to make your own hif file.",
-                    url: "https://github.com/kunalsmh/.hif/",
-                    timeline: "2023 — Now",
+                    name: ".hif img format",
+                    text: "My own image file format created for fun! Install the \"hif_opener.exe\" to open hif files. clone the repo and compile to make your own hif file.",
                 },
                 {
-                    title: "wordhunt.fun",
-                    des: "Silly little game in which you have to find the correct word from a sentence of random words as fast as you can and beat everyone's speed record.",
-                    url: "https://github.com/kunalsmh/wordhunt.fun/",
-                    timeline: "2023 — Now",
+                    name: "wordhunt.fun",
+                    text: "Silly little game in which you have to find the correct word from a sentence of random words as fast as you can and beat everyone's speed record."
                 }
             ]
         };
@@ -22,17 +18,16 @@ export default {
 </script>
 
 <template>
-    <div class="font-rubik w-full">
-        <h1 class="text-white text-2xl mt-6">Projects</h1>
-
-        <div v-for="(project, index) in projects" :key="index" class="items-center justify-between mt-6 flex gap-8">
-            <div class="flex flex-row items-center gap-2.5">
-                <h1 class="text-cg-3 text-base font-medium">{{ project.timeline }}</h1>
-            </div>
-            <div class="max-w-xl">
-                <a :href="project.url" class=" text-white hover:underline hover:underline-offset-4">{{ project.title }}</a>
-                <p class="text-cg-3">{{ project.des }}</p>
-            </div>
+    <div class="w-full grid grid-cols-1 gap-8 sm:grid-cols-2">
+      <h1 class="text-white font-kanit text-xl font-normal mt-6 col-span-full">Projects</h1>
+      <div v-for="(project, index) in projects" :key="index" class="bg-cg-2 p-4 flex flex-col gap-8 rounded-lg">
+        <div class="flex flex-row items-center gap-2.5">
+          <header class="flex flex-col">
+            <h1 class="text-white text-lg font-kanit font-normal">{{ project.name }}</h1>
+          </header>
         </div>
+        <p class="text-white font-kanit font-light opacity-75 mt-[-1.5rem]">{{ project.text }}</p>
+      </div>
     </div>
-</template>
+  </template>
+  

@@ -2,7 +2,7 @@
 useSeoMeta({
   title: 'Kunal Sharma',
   keywords: "kunalsmh",
-  themeColor: "#574585",
+  themeColor: "#ffffff",
   ogSiteName: "kunalsmh",
   ogUrl: "https://kunalsh.com",
   ogTitle: 'Kunal Sharma',
@@ -12,11 +12,12 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="items-stretch max-w-wrapper py-8 px-4 m-auto flex flex-col justify-center">
+  <main class="items-stretch max-w-wrapper pt-8 px-4 m-auto flex flex-col justify-center">
     <Header />
     <About />
     <Projects />
     <Testimonials />
+    <Footer />
   </main>
 
 </template>
