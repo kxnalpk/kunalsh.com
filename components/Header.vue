@@ -7,7 +7,7 @@ export default {
             socials: [
                 {
                     "img": "/images/socials/github.svg",
-                    "url": "https://github.com/kunalsm/h",
+                    "url": "https://github.com/kunalsmh/",
                     "alt": "github",
                 },
                 {
@@ -44,7 +44,7 @@ console.log(data);
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
                 <div class="flex gap-2 mt-3">
                     <NuxtImg :alt="social.alt" loading="lazy" v-for="(social, index) in socials" :key="index"
-                        class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" width="20px" :src="social.img">
+                        class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" width="20" :src="social.img">
                     </NuxtImg>
 
                     <div class="bg-cg-2 rounded-md px-2 py-1 text-sm text-white font-kanit font-base">
