@@ -39,7 +39,7 @@ console.log(data);
                 <h1 class="font-kanit font-medium text-5xl">Kunal Sharma</h1>
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
                 <div class="flex gap-2 mt-3">
-                    <NuxtImg v-for="(social, index) in socials" :key="index"
+                    <NuxtImg loading="lazy" v-for="(social, index) in socials" :key="index"
                         class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" width="20px" :src="social.img">
                     </NuxtImg>
 
