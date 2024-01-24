@@ -20,6 +20,6 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/image",
-    '@virenbar/nuxt-lanyard'
+    '@virenbar/nuxt-lanyard',
   ],
 })

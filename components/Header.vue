@@ -29,6 +29,7 @@ export default {
 
 <script setup lang="ts">
 const data = useLanyard({ method: "rest", id: "853147823066578946" });
+console.log(data);
 </script>
 
 <template>
