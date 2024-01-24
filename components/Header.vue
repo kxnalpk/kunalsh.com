@@ -47,7 +47,7 @@ const data = useLanyard({ method: "rest", id: "853147823066578946" });
                         class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" :src="social.img">
                     </NuxtImg>
                     
-                    <div class="bg-cg-2 rounded-md px-2 py-1 text-sm text-white font-kanit font-base">
+                    <div class="bg-cg-2 rounded-md px-2 py-1 text-sm text-white opacity-80 font-kanit font-base">
                         <span v-if="data?.discord_status === 'offline'">Currently Offline</span>
                         <span v-else>Currently Online</span>
                     </div>
