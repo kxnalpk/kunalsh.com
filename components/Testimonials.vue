@@ -25,11 +25,11 @@ export default {
                     alt: "dante",
                 },
                 {
-                    name: "Polycord",
-                    username: "@polycord",
-                    text: "Kunal is an amazing UI/UX designer and developer! He does the job in a fast speed and comes out perfect every time. I can trust him with anything and he’s also a good guy!",
-                    img: "/images/testimonials/polycord.png",
-                    alt: "pratik",
+                    name: "Fishkido",
+                    username: "@fishkido",
+                    text: "Kunal is an amazing and pationate developer and UI/UX designer. He attempts many projects and always brings something unique. He's highly trusted friend for me!",
+                    img: "/images/testimonials/fishkido.png",
+                    alt: "fishkido",
                 }
             ]
         };
