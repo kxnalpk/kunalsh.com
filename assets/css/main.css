@@ -29,22 +29,22 @@ p {
   @apply text-opacity-75;
 }
 
-.fade1-enter-active,
-.fade1-leave-active {
+.fade-top-enter-active,
+.fade-top-leave-active {
   transition: opacity 0.5s ease;
 }
 
-.fade1-enter-from,
-.fade1-leave-to {
+.fade-top-enter-from,
+.fade-top-leave-to {
   opacity: 0;
 }
 
-.fade2-enter-active,
-.fade2-leave-active {
+.fade-top-enter-active,
+.fade-top-leave-active {
   transition: opacity 1.5s ease;
 }
 
-.fade2-enter-from,
-.fade2-leave-to {
+.fade-top-enter-from,
+.fade-top-leave-to {
   opacity: 0;
 }
