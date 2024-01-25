@@ -43,10 +43,12 @@ const data = useLanyard({ method: "rest", id: "853147823066578946" });
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
                 <div class="flex gap-2 mt-3">
 
-                    <NuxtImg :alt="social.alt" v-for="(social, index) in socials" :key="index"
-                        class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" :src="social.img">
-                    </NuxtImg>
-                    
+                    <a :href="social.url" class="flex gap-2" v-for="(social, index) in socials" :key="index">
+                        <NuxtImg :alt="social.alt"
+                            class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" :src="social.img">
+                        </NuxtImg>
+                    </a>
+
                     <div class="bg-cg-2 rounded-md px-2 py-1 text-sm text-white opacity-80 font-kanit font-base">
                         <span v-if="data?.discord_status === 'offline'">Currently Offline</span>
                         <span v-else>Currently Online</span>
