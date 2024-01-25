@@ -35,16 +35,16 @@ p {
 }
 
 .fade-top-enter-from,
-.fade-top-leave-to {
+.fadetop-leave-to {
   opacity: 0;
 }
 
-.fade-top-enter-active,
-.fade-top-leave-active {
-  transition: opacity 1.5s ease;
+.fade-bottom-enter-active,
+.fade2-leave-active {
+  transition: opacity 1s ease;
 }
 
-.fade-top-enter-from,
-.fade-top-leave-to {
+.fade-bottom-enter-from,
+.fade-bottom-leave-to {
   opacity: 0;
 }
