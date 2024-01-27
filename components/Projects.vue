@@ -12,6 +12,11 @@ export default {
                     name: "wordhunt.fun",
                     url: "https://github.com/kunalsmh/wordhunt.fun",
                     text: "Silly little game in which you have to find the correct word from a sentence of random words as fast as you can and beat everyone's speed record."
+                },
+                {
+                  name: "hydrate",
+                  url: "https://github.com/kunalsmh/hydrate",
+                  text: "Drinking water is really important for our health and we always forget that, this is an open-sourced cross platform mobile application that reminds you to drink water!"
                 }
             ]
         };
