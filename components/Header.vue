@@ -39,7 +39,7 @@ const data = useLanyard({ method: "ws", id: "853147823066578946" });
     <header class="w-full">
         <div class="gap-6 mt-6 flex flex-nowrap items-center text-white">
             <div>
-                <h1 class="font-kanit font-medium text-5xl">Kunal Sharma</h1>
+                <h1 class="font-kanit font-regular text-4xl">Kunal Sharma</h1>
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
                 <div class="flex gap-2 mt-3">
 
