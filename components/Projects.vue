@@ -27,14 +27,14 @@ export default {
 <template>
     <div class="w-full grid grid-cols-1 gap-8 sm:grid-cols-2">
       <h1 class="text-white font-kanit text-xl font-normal mt-6 col-span-full">Projects</h1>
-      <div v-for="(project, index) in projects" :key="index" class="bg-cg-2 hover:bg-cg-5 p-4 flex flex-col gap-8 rounded-lg">
-        <div class="flex flex-row items-center gap-2.5">
+      <a :href="project.url" v-for="(project, index) in projects" :key="index" class="bg-cg-2 hover:bg-cg-5 p-4 flex flex-col gap-8 rounded-lg">
+        <div :href="project.url" class="flex flex-row items-center gap-2.5">
           <header class="flex flex-col">
-            <a :href="project.url" class="text-white text-lg font-kanit font-normal hover:underline hover:underline-offset-2">{{ project.name }}</a>
+            <a class="text-white text-lg font-kanit font-normal hover:underline hover:underline-offset-2">{{ project.name }}</a>
           </header>
         </div>
         <p class="text-white font-kanit font-light opacity-75 mt-[-1.5rem]">{{ project.text }}</p>
-      </div>
+      </a>
     </div>
   </template>
   
