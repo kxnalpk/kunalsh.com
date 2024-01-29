@@ -17,6 +17,11 @@ export default {
                   name: "hydrate",
                   url: "https://github.com/kunalsmh/hydrate",
                   text: "Drinking water is really important for our health and we always forget that, this is a cross-platform mobile application that reminds you to drink water!"
+                },
+                {
+                  name: "computer builders",
+                  url: "pcbuilders.kunalsh.com",
+                  text: "We're a community dedicated to helping people choose the right parts and build their pcss. Share what you know, discuss bout various topics, or even find inspiration!"
                 }
             ]
         };
