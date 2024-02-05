@@ -16,7 +16,7 @@ useHead({
 </script>
 
 <template>
-  <main v-if="isPageLoaded" class="items-stretch max-w-wrapper pt-6 sm:pt-24 px-4 m-auto flex flex-col justify-center">
+  <main v-if="isPageLoaded" class="items-stretch max-w-wrapper pt-6 sm:pt-28 px-4 m-auto flex flex-col justify-center">
     <Transition name="fade-top" appear>
       <header>
         <Header />
