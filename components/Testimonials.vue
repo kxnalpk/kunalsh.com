@@ -4,11 +4,11 @@ export default {
         return {
             testimonials: [
                 {
-                    name: "Browny",
-                    username: "@legendfroggy",
-                    text: "When I first saw kunal on DAC and CA, he was amusing and looked really good. I see him now as the same fascinating person who loves capybaras and programming.",
-                    img: "/images/testimonials/browny.png",
-                    alt: "browny",
+                    name: "Pratik Kamboj",
+                    username: "@pratikkamboj",
+                    text: "Collaborating with Kunal is a delightful and impressive experience, both personally and professionally. He goes beyond achieving goals, it's about the joy he put in his work.",
+                    img: "/images/testimonials/pratik.jpg",
+                    alt: "pratik",
                 },
                 {
                     name: "Rony",
