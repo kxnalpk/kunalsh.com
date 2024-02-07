@@ -28,5 +28,7 @@
                 cannot create a native application for you, whether it is a desktop or mobile app. Yep these were <b>my views</b> on this topic. Thanks for reading.
             </p>
     </div>
+
+    <footer class="text-base text-white text-opacity-60">&#169 Kunal. All rights reserved.</footer>
  </main>
 </template>
