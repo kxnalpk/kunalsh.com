@@ -1,4 +1,10 @@
 export default defineAppConfig({
-    ui: {}
-})
+    ui: {
+        button: {
+            color: {
+                gray: 'cg-2 dark:cg-2'
+            }
+        }
+    }
+  })
   
