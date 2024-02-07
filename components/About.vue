@@ -1,10 +1,11 @@
 <template>
   <header class="mt-12">
     <h1 class="text-white text-xl font-kanit font-normal">About</h1>
-    <p class="mt-2 text-white opacity-75 font-kanit font-light">howdy? i'm a student and a software
-      developer. I write code in rust, ts and js. I offer web & app development services. oh and i love capybaras and
-      marmots.<br><br>I started coding in 2020 when the covid pandemic was a thing. I started with python and had really fun with
-      it. I then started learning other languages and still learning more. Apart from coding, i really like playing games
-      and listening to music in free time. I'm a huge fan of red dead redemption franchise.</p>
+    <p class="mt-2 text-white text-opacity-75 font-kanit font-light">howdy? i'm a <span class="text-white text-opacity-95">student</span> and a 
+      <span class="text-white text-opacity-95">software developer</span>. I write code in <span class="text-white text-opacity-95">Rust, Dart, Ts and Js</span>. I offer web & app development <a href="https://ko-fi.com/kunalsmh" class="text-white text-opacity-95">services</a>. oh and i love capybaras and marmots.
+      <br><br>
+      
+      I enjoy listening to music and gaming, particularly the <span class="text-white text-opacity-95">Red Dead Redemption</span> franchise and <span class="text-white text-opacity-95">Fortnite</span>, and I stream on <span class="text-white text-opacity-95">Twitch</span> nightly at 10 PM IST, except for weekends.
+    </p>
   </header>
 </template>

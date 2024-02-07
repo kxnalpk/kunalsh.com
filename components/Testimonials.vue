@@ -38,9 +38,9 @@ export default {
 </script>
 
 <template>
-    <div class="font-rubik w-full grid grid-cols-1 gap-8 sm:grid-cols-2">
+    <div class="font-rubik w-full grid grid-cols-1 gap-4 sm:grid-cols-2">
       <h1 class="text-white text-xl font-kanit text-normal mt-6 col-span-full">Testimonials</h1>
-      <div v-for="(testimonial, index) in testimonials" :key="index" class="cursor-pointer g-cg-2 p-4 bg-cg-2 hover:bg-cg-5 flex flex-col gap-8 rounded-lg">
+      <div v-for="(testimonial, index) in testimonials" :key="index" class="p-4 bg-cg-2 flex flex-col gap-8 rounded-lg">
         <div class="flex flex-row items-center gap-2.5">
           <NuxtImg class="w-12 rounded-full" width="48" height="48" :alt="testimonial.alt" :src="testimonial.img" />
           <header class="flex flex-col">

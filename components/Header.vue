@@ -1,5 +1,4 @@
 <script lang="ts">
-import type { NuxtImg } from '#build/components';
 
 export default {
     data() {
@@ -11,20 +10,15 @@ export default {
                     "alt": "github",
                 },
                 {
-                    "img": "/images/socials/discord.svg",
-                    "url": "https://discord.com/users/853147823066578946/",
-                    "alt": "discord",
+                    "img": "/images/socials/linkedin.svg",
+                    "url": "https://i-forgot",
+                    "alt": "linkedin"
                 },
                 {
                     "img": "/images/socials/x.svg",
                     "url": "https://x.com/hiftea/",
                     "alt": "x",
-                },
-                {
-                    "img": "/images/socials/insta.svg",
-                    "url": "https://instagram.com/@kunal90ti/",
-                    "alt": "insta",
-                },
+                }
             ]
         };
     },
@@ -37,15 +31,15 @@ const data = useLanyard({ method: "ws", id: "853147823066578946" });
 
 <template>
     <header class="w-full">
-        <div class="gap-6 mt-6 flex flex-nowrap items-center text-white">
+        <div class="gap-6 mt-6 flex flex-nowrap justify-between items-center text-white">
             <div>
                 <h1 class="font-kanit font-regular text-4xl">Kunal Sharma</h1>
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
-                <div class="flex gap-2 mt-3">
+                <div class="flex gap-1 mt-3">
 
-                    <a :href="social.url" class="flex gap-2" v-for="(social, index) in socials" :key="index">
+                    <a :href="social.url" class="flex" v-for="(social, index) in socials" :key="index">
                         <NuxtImg :alt="social.alt"
-                            class="hover:opacity-70 transition-all w-fit ease-in max-w-[20px]" :src="social.img">
+                            class="hover:opacity-80 w-fit max-w-[20px]" :src="social.img">
                         </NuxtImg>
                     </a>
 

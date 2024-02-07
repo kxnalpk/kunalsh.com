@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-    <div class="w-full grid grid-cols-1 gap-8 sm:grid-cols-2">
+    <div class="w-full grid grid-cols-1 gap-4 sm:grid-cols-2">
       <h1 class="text-white font-kanit text-xl font-normal mt-6 col-span-full">Projects</h1>
       <a :href="project.url" v-for="(project, index) in projects" :key="index" class="bg-cg-2 hover:bg-cg-5 p-4 flex flex-col gap-8 rounded-lg">
         <div class="flex flex-row items-center gap-2.5">
