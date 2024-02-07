@@ -1,5 +1,5 @@
 <template>
-    <main class="items-stretch max-w-wrapper pt-6 sm:pt-28 px-4 m-auto flex flex-col justify-center gap-8">
+    <main class="items-stretch max-w-wrapper pt-6 sm:pt-28 px-4 m-auto flex flex-col justify-center gap-8 py-4">
 
         <UBreadcrumb divider="/"
             :links="[{ label: 'Home', to: '/' }, { label: 'Blogs' }, { label: 'Will AI Replace Devs?' }]"

@@ -38,14 +38,18 @@ const data = useLanyard({ method: "ws", id: "853147823066578946" });
                 <div class="flex gap-1 mt-3">
 
                     <a :href="social.url" class="flex" v-for="(social, index) in socials" :key="index">
-                        <NuxtImg :alt="social.alt"
-                            class="hover:opacity-80 w-fit max-w-[20px]" :src="social.img">
+                        <NuxtImg width="26" :alt="social.alt" class="hover:opacity-80 w-fit max-w-[26px]" :src="social.img">
                         </NuxtImg>
                     </a>
 
                     <div class="bg-cg-2 rounded-md px-2 py-1 text-sm text-white opacity-80 font-kanit font-base">
-                        <span v-if="data?.discord_status === 'offline'">Currently Offline</span>
-                        <span v-else>Currently Online</span>
+                        <div v-if="data?.discord_status === 'offline'">
+                            <span v-if="data?.discord_status === 'offline'">Currently Offline</span>
+                        </div>
+                        <div v-else>
+                            <NuxtImg class="inline-block animate-pulse max-w-[12px] mr-1" src="/dot.svg"></NuxtImg>
+                            <span>Currently Online</span>
+                        </div>
                     </div>
                 </div>
             </div>
