@@ -1,6 +1,5 @@
 <template>
-  <header class="mt-12">
-    <h1 class="text-white text-xl font-kanit font-normal">About</h1>
+  <header class="mt-8">
     <p class="mt-2 text-white text-opacity-75 font-kanit font-light">howdy? i'm a <span class="text-white text-opacity-95">student</span> and a 
       <span class="text-white text-opacity-95">software developer</span>. I write code in <span class="text-white text-opacity-95">Rust, Dart, Ts and Js</span>. I offer web & app development <a href="https://ko-fi.com/kunalsmh" class="text-white text-opacity-95">services</a>. oh and i love capybaras and marmots.
       <br><br>
