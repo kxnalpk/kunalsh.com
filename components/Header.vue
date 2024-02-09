@@ -16,7 +16,7 @@ export default {
                 },
                 {
                     "img": "/images/socials/x.svg",
-                    "url": "https://x.com/hiftea/",
+                    "url": "https://twitter.com/kunalsmh",
                     "alt": "x",
                 }
             ]
@@ -47,7 +47,6 @@ const data = useLanyard({ method: "ws", id: "853147823066578946" });
                             <span v-if="data?.discord_status === 'offline'">Currently Offline</span>
                         </div>
                         <div v-else>
-                            <NuxtImg class="inline-block animate-pulse max-w-[12px] mr-1" src="/dot.svg"></NuxtImg>
                             <span>Currently Online</span>
                         </div>
                     </div>
