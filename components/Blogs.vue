@@ -10,7 +10,7 @@ export default {
                 },
                 {
                     title: "How I started programming?",
-                    slug: "/blogs/2",
+                    slug: "/blogs/1",
                     des: "I documented my whole software development journey in this blog, from web development to app development. And also how i managed to buy a really good PC with just web dev."
                 }
             ]
