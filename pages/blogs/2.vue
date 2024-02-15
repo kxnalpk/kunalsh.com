@@ -1,5 +1,10 @@
+<script setup lang="ts">
+const description = ref('Nvidia just released a new AI ChatBot that works locally on your very own system using your GPU\'s power!')
+</script>
+
 <template>
     <main class="items-stretch max-w-wrapper pt-6 sm:pt-28 px-4 m-auto flex flex-col justify-center gap-8">
+        <Meta name="description" :content="description" />
 
         <UBreadcrumb divider="/" :links="[{ label: 'Home', to: '/' }, { label: 'Blogs' }, { label: 'Nvidia\'s New ChatBot' }]"
             :ui="{ active: 'text-white dark:text-white', li: 'text-white dark:text-white text-opacity-75 dark:text-opacity-75' }" />
