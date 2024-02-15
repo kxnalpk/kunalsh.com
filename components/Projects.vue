@@ -20,7 +20,7 @@ export default {
                 },
                 {
                   name: "chad coders",
-                  url: "https://github.com/organizations/chadcoders",
+                  url: "https://github.com/giga-chad-code",
                   text: "A group of creative software developers and graphic designers offering web and app development services. Currently working on it, will catch ya soon!"
                 }
             ]
