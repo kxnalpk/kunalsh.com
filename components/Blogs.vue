@@ -9,9 +9,9 @@ export default {
                     des: "This is the one of the most asked question back in 2023, so i decided to share my own views on this topic. I've covered everything you need to know in a simple way."
                 },
                 {
-                    title: "How I started programming?",
-                    slug: "/blogs/1",
-                    des: "I documented my whole software development journey in this blog, from web development to app development. And also how i managed to buy a really good PC with just web dev."
+                    title: "Did Nvidia just demolish AMD?",
+                    slug: "/blogs/2",
+                    des: "Nvidia just recently released an AI chatbot that runs entirely on YOUR machine. It is powered by the special sensor cores (30 & 40 series) in the nvidia video cards."
                 }
             ]
         };

@@ -13,6 +13,5 @@ console.log(data);
         </div>
 
         <h1 class="text-white text-opacity-70 text-sm font-kanit font-light" v-else>Currently not listening to spotify</h1>
-        <footer class="text-sm text-white text-opacity-60">&#169 Kunal. All rights reserved.</footer>
     </div>
 </template>
