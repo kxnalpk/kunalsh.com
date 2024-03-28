@@ -1,10 +1,10 @@
 <template>
   <header class="mt-8">
-    <p class="mt-2 text-white text-opacity-75 font-kanit font-light">howdy? i'm a <span class="text-white text-opacity-95">student</span> and a 
-      <span class="text-white text-opacity-95">software developer</span>. I write code in <span class="text-white text-opacity-95">Rust, Dart, Ts and Js</span>. I offer web & app development <a href="https://ko-fi.com/kunalsmh" class="text-white text-opacity-95">services</a>. oh and i love capybaras and marmots.
+    <p class="mt-2 text-white text-opacity-75 font-kanit font-light"><span class="text-white text-opacity-95">I'm a 17 years old </span>  
+      <span class="text-white text-opacity-95">software engineer</span> & <span class="text-white text-opacity-95">a hobbyist game developer</span>. I write code in <span class="text-white text-opacity-95">Typescript, Dart, C#</span> and <span class="text-white text-opacity-95">C++</span> when i'm making games in unreal engine.
       <br><br>
       
-      I enjoy listening to music and gaming, particularly the <span class="text-white text-opacity-95">Red Dead Redemption</span> franchise and <span class="text-white text-opacity-95">Fortnite</span>, and I stream on <span class="text-white text-opacity-95">Twitch</span> nightly at 10 PM IST, except for weekends.
+      I enjoy listening to music while playing <span class="text-white text-opacity-95">games</span>. Apart from this, i also like watching anime and my fav ones are <span class="text-white text-opacity-95">Attack On Titan</span> and <span class="text-white text-opacity-95">Jujutsu Kaisen</span>.
     </p>
   </header>
 </template>

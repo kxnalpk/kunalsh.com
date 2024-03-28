@@ -10,9 +10,9 @@ export default {
                     "alt": "github",
                 },
                 {
-                    "img": "/images/socials/linkedin.svg",
-                    "url": "https://i-forgot",
-                    "alt": "linkedin"
+                    "img": "/images/socials/discord.svg",
+                    "url": "https://discord.gg/kunal",
+                    "alt": "discord"
                 },
                 {
                     "img": "/images/socials/x.svg",

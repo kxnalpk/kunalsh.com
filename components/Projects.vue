@@ -4,24 +4,14 @@ export default {
         return {
             projects: [
                 {
-                    name: ".hif img format",
-                    url: "https://github.com/kunalsmh/.hif",
-                    text: "My own image file format created for fun! Install the \"hif_opener.exe\" to open hif files. clone the repo and compile to make your own hif file.",
-                },
-                {
-                    name: "wordhunt.fun",
-                    url: "https://github.com/kunalsmh/wordhunt.fun",
-                    text: "Silly little game in which you have to find the correct word from a sentence of random words as fast as you can and beat everyone's speed record."
-                },
-                {
-                  name: "hydrate",
+                  name: "Hydrate",
                   url: "https://github.com/kunalsmh/hydrate",
                   text: "Drinking water is really important for our health and we always forget that, this is a cross-platform mobile application that reminds you to drink water!"
                 },
                 {
-                  name: "chad coders",
-                  url: "https://github.com/giga-chad-code",
-                  text: "A group of creative software developers and graphic designers offering web and app development services. Currently working on it, will catch ya soon!"
+                  name: "Battlezone",
+                  url: "https://github.com/kunalsmh/",
+                  text: "A simple FPS shooter game created in unreal engine 5. My first public and open-sourced game dev project. Currently in development. Make sure to join my discord for updates!"
                 }
             ]
         };
