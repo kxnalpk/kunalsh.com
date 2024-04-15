@@ -31,7 +31,7 @@ const data = useLanyard({ method: "ws", id: "853147823066578946" });
 
 <template>
     <header class="w-full">
-        <div class="gap-6 mt-6 flex flex-nowrap justify-between items-center text-white">
+        <div class="gap-6 mt-6 flex flex-nowrap justify-between items-center text-[#E9E9F7]">
             <div>
                 <h1 class="font-kanit font-regular text-4xl">Kunal Sharma</h1>
                 <p class="opacity-75 text-lg font-kanit font-light">Web & App Developer</p>
@@ -42,7 +42,7 @@ const data = useLanyard({ method: "ws", id: "853147823066578946" });
                         </NuxtImg>
                     </a>
 
-                    <div class="bg-cg-2 rounded-md px-2 py-1 text-sm text-white opacity-80 font-kanit font-base">
+                    <div class="bg-[#1f1f28] rounded-md px-2 py-1 text-sm text-[#E9E9F7] opacity-80 font-kanit font-base">
                         <div v-if="data?.discord_status === 'offline'">
                             <span v-if="data?.discord_status === 'offline'">Currently Offline</span>
                         </div>

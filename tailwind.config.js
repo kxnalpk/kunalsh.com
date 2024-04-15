@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         'cg-1': "#BDBDBD",
-        'cg-2': "#232323",
+        'cg-2': "#1f1f28",
         'cg-3': "#A4A4A4",
         'cg-4': "#DBDBDB",
         'cg-5': "#292929",

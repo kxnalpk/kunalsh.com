@@ -21,11 +21,11 @@ export default {
 
 <template>
     <div class="font-rubik w-full grid grid-cols-1 gap-4">
-        <h1 class="text-white text-xl font-kanit text-normal mt-6 col-span-full">Writing</h1>
+        <h1 class="text-[#E9E9F7] text-xl font-kanit text-normal mt-6 col-span-full">Writing</h1>
         <NuxtLink v-for="(blog) in blogs" :to="blog.slug">
-            <div class="cursor-pointer p-4 bg-cg-2 hover:bg-cg-5 flex flex-col gap-8 rounded-lg">
-                <h1 class="text-white font-kanit text-medium">{{ blog.title }}</h1>
-                <p class="text-white font-kanit font-light opacity-75 text-base mt-[-2rem]">{{ blog.des }}</p>
+            <div class="cursor-pointer p-4 bg-[#1f1f28] hover:bg-[#2C2C37] flex flex-col gap-8 rounded-lg">
+                <h1 class="text-[#E9E9F7] font-kanit text-medium">{{ blog.title }}</h1>
+                <p class="text-[#E9E9F7] font-kanit font-light opacity-75 text-base mt-[-2rem]">{{ blog.des }}</p>
             </div>
         </NuxtLink>
     </div>
