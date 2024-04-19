@@ -6,12 +6,12 @@ export default {
             socials: [
                 {
                     "img": "/images/socials/github.svg",
-                    "url": "https://github.com/kunalsmh/",
+                    "url": "https://github.com/kunalduh/",
                     "alt": "github",
                 },
                 {
                     "img": "/images/socials/discord.svg",
-                    "url": "https://discord.gg/kunal",
+                    "url": "https://discord.gg/V596KPnmY3",
                     "alt": "discord"
                 },
                 {

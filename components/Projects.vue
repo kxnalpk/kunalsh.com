@@ -5,12 +5,12 @@ export default {
             projects: [
                 {
                   name: "Hydrate",
-                  url: "https://github.com/kunalsmh/hydrate",
+                  url: "https://github.com/kunalduh/hydrate",
                   text: "Drinking water is really important for our health and we always forget that, this is a cross-platform mobile application that reminds you to drink water!"
                 },
                 {
                   name: "Da Basement",
-                  url: "https://github.com/kunalsmh/da_basement",
+                  url: "https://github.com/kunalduh/da_basement",
                   text: "You are stuck in a guy's basement along with other kids and you have to escape and find a way to free the kids too! Join my discord server for updates and game progress!"
                 }
             ]
