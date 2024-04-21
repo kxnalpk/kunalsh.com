@@ -26,7 +26,7 @@ export default {
 </script>
 
 <script setup lang="ts">
-const data = useLanyard({ method: "ws", id: "853147823066578946" });
+const data = useLanyard({ method: "ws", id: "791222882499690519" });
 </script>
 
 <template>
