@@ -1,18 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./app.vue",
-    "./error.vue",
-  ],
+export default {
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
-      fontFamily: {
-        kanit: ['Kanit']
-      },
       maxWidth: {
         'desktop': '753px',
         'mobile': '509px',
@@ -27,11 +17,5 @@ module.exports = {
       }
     },
   },
-  plugins: [],
-}
-
-//Custom CSS Classes:
- //a = 16px
- //b = 60px
- //c = 25px
- //d = 9px
+  plugins: []
+};
