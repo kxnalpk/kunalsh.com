@@ -26,7 +26,7 @@
     let socials = [
         {
             name: "Twitter",
-            url: "https://twitter.com/kunalpk"
+            url: "https://twitter.com/kunalduh"
         },
         {
             name: "Discord",
@@ -34,7 +34,7 @@
         },
         {
             name: "Instagram",
-            url: "https://instagram.com/kunalpk"
+            url: "https://instagram.com/kunalsmfh"
         }
 
     ]
@@ -103,7 +103,7 @@
                 <a href={social.url} class="text-[#e5e5e5] bg-[#3b3b3c] px-2 py-1 text-sm rounded-full">{social.name}</a>
             {/each}
         </footer>
-        
+
         <footer>
             <h1 class="text-[#e5e5e5] text-opacity-70 font-light">© 2024 Kunal Sharma. All rights reserved.</h1>
         </footer>
