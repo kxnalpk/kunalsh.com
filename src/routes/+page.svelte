@@ -19,7 +19,7 @@
         {
           name: "Socket-CLI-Chat",
           url: "https://github.com/kunalduh/socket-cli-chat",
-          text: "An end-to-end encrypted CLI chat application for Windows 10 and 11. I created this to learn C++ and understand socket programming. Connection cirectly from console."
+          text: "An open-sourced end-to-end encrypted CLI chat application for Windows 11. I created this to learn C++ and understand socket programming."
         }
     ];
 
