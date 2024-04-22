@@ -26,7 +26,7 @@
     let socials = [
         {
             name: "Twitter",
-            url: "https://twitter.com/kunalduh"
+            url: "https://twitter.com/kunalpk"
         },
         {
             name: "Discord",
@@ -34,7 +34,7 @@
         },
         {
             name: "Instagram",
-            url: "https://instagram.com/kunalsmfh"
+            url: "https://instagram.com/kunalpk"
         }
 
     ]
@@ -97,13 +97,7 @@
         </div>
     </div>
 
-    <div class="flex flex-wrap justify-between py-4">
-        <footer class="flex items-center gap-3">
-            {#each socials as social}
-                <a href={social.url} class="text-[#e5e5e5] bg-[#3b3b3c] px-2 py-1 text-sm rounded-full">{social.name}</a>
-            {/each}
-        </footer>
-
+    <div>
         <footer>
             <h1 class="text-[#e5e5e5] text-opacity-70 font-light">© 2024 Kunal Sharma. All rights reserved.</h1>
         </footer>
