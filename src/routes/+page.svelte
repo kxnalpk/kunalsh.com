@@ -23,6 +23,22 @@
         }
     ];
 
+    let socials = [
+        {
+            name: "Twitter",
+            url: "https://twitter.com/kunalpk"
+        },
+        {
+            name: "Discord",
+            url: "https://discord.gg/V596KPnmY3"
+        },
+        {
+            name: "Instagram",
+            url: "https://instagram.com/kunalpk"
+        }
+
+    ]
+
     async function handleSendClick() {
         const webhookURL = PUBLIC_WEBHOOK;
         // @ts-ignore
@@ -75,13 +91,23 @@
             </a>
         {/each}
 
-        <div class="border-dashed border-2 border-[#3b3b3c] p-4 flex flex-col gap-8 rounded-lg">
+        <div class="border-dashed border-2 border-[#3b3b3c] p-3 flex flex-col gap-8 rounded-lg">
             <textarea id="idea" placeholder={initialTextIdea} class="text-[#e5e5e5] outline-none h-full w-full font-light opacity-75 bg-transparent resize-none"></textarea>
-            <button on:click={handleSendClick} class="bg-[#766fc7] hover:bg-[#5c57a3] text-[#e5e5e5] px-4 py-2 rounded-lg">Click here to send</button>
+            <button on:click={handleSendClick} class="bg-[#766fc7] hover:bg-[#5c57a3] text-[#e5e5e5] px-4 py-1 rounded-lg">Click here to send</button>
         </div>
     </div>
 
-    <div class="py-8 gap-1 flex flex-col items-left text-left">
-        <h1 class="text-[#e5e5e5] text-opacity-70 font-kanit font-light">© 2024 Kunal sharma. All rights reserved.</h1>
+    <div class="flex flex-wrap justify-between py-4">
+        <footer class="flex items-center gap-3">
+            {#each socials as social}
+                <a href={social.url} class="text-[#e5e5e5] bg-[#3b3b3c] px-2 py-1 text-sm rounded-full">{social.name}</a>
+            {/each}
+        </footer>
+        
+        <footer>
+            <h1 class="text-[#e5e5e5] text-opacity-70 font-light">© 2024 Kunal Sharma. All rights reserved.</h1>
+        </footer>
     </div>
+    
+
 </section>
