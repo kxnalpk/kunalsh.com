@@ -1,10 +1,10 @@
 // page.server.ts
 export const prerender = true;
 
-import { PRIVATE_WEBHOOK } from "$env/static/private";
+import { PUBLIC_WEBHOOK } from "$env/static/public";
 
 export async function _handleSendClick() {
-    const webhookURL = PRIVATE_WEBHOOK;
+    const webhookURL = PUBLIC_WEBHOOK;
     const contentInput = document.getElementById('idea') as HTMLInputElement | null;
 
     if (!contentInput) {
