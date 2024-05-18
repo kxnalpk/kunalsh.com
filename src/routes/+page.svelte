@@ -38,7 +38,7 @@
         },
         {
             name: "Github",
-            url: "https://github.com/kunalsmh"
+            url: "https://github.com/kxnalpk"
         }
 
     ]
