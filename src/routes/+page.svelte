@@ -26,7 +26,7 @@
     let socials = [
         {
             name: "X",
-            url: "https://twitter.com/kunalduh"
+            url: "https://twitter.com/kunalsmh"
         },
         {
             name: "Discord",
