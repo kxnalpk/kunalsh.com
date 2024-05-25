@@ -53,7 +53,7 @@
 </svelte:head>
 
 <section class="flex items-center justify-center max-w-wrapper pt-6 sm:pt-28 px-4 m-auto flex-col">
-    <Countdown from="2024-05-23 17:00:00" dateFormat="YYYY-MM-DD H:m:s" zone="Asia/India" let:remaining>
+    <Countdown from="2024-05-25 17:00:00" dateFormat="YYYY-MM-DD H:m:s" zone="Asia/India" let:remaining>
         <div class="text-whitetext-center">
             {#if remaining.done === false}
 
@@ -66,7 +66,7 @@
             </header>
             {:else}
             <div class="bg-[#353536] text-4xl text-white rounded-lg p-4">
-                Happening Right Now - Major Quals
+                Happening Right Now - Major Quals 2
             </div>
           
             {/if}
