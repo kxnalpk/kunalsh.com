@@ -57,7 +57,7 @@
         <div class="text-whitetext-center">
             {#if remaining.done === false}
 
-            <h1 class="text-3xl text-white font-bold py-4">STARTING IN</h1>
+            <h1 class="text-3xl text-white font-bold py-4">MAJOR QUALS 2</h1>
 
             <header class="text-4xl text-white">
                 <span>{remaining.hours} <span class="opacity-75">hours</span></span>
