@@ -2,49 +2,6 @@
     import "../../app.css"
     // @ts-ignore
     import Countdown from 'svelte-countdown/src/index.js'
-
-    let players = [
-        {
-          name: "Player [1]",
-          points: "0"
-        },
-        {
-          name: "Player [2]",
-          points: "0"
-        },
-        {
-          name: "Player [3]",
-          points: "0"
-        },
-        {
-          name: "Player [4]",
-          points: "0"
-        },
-        {
-          name: "Player [5]",
-          points: "0"
-        },
-        {
-          name: "Player [6]",
-          points: "0"
-        },
-        {
-          name: "Player [7]",
-          points: "0"
-        },
-        {
-          name: "Player [8]",
-          points: "0"
-        },
-        {
-          name: "Player [9]",
-          points: "0"
-        },
-        {
-          name: "Player [10]",
-          points: "0"
-        },
-    ];
 </script>
 
 <svelte:head>
@@ -53,23 +10,33 @@
 </svelte:head>
 
 <section class="flex items-center justify-center max-w-wrapper pt-6 sm:pt-28 px-4 m-auto flex-col">
-    <Countdown from="2024-05-25 17:00:00" dateFormat="YYYY-MM-DD H:m:s" zone="Asia/India" let:remaining>
-        <div class="text-whitetext-center">
-            {#if remaining.done === false}
-
-            <h1 class="text-3xl text-white font-bold py-4">MAJOR QUALS 2</h1>
-
+    <Countdown from="2024-11-01 12:00:00" dateFormat="YYYY-MM-DD H:m:s" zone="Asia/India" let:remaining>
+        <div>
+            <h1 class="text-3xl text-white font-bold py-4">FM QUALS</h1>
             <header class="text-4xl text-white">
+                <span>{remaining.months} <span class="opacity-75">months</span></span>
+                <span>{remaining.days} <span class="opacity-75">days</span></span>
                 <span>{remaining.hours} <span class="opacity-75">hours</span></span>
                 <span>{remaining.minutes} <span class="opacity-75">minutes</span></span>
-                <span>{remaining.seconds} <span class="opacity-75">seconds</span></span>
             </header>
-            {:else}
-            <div class="bg-[#353536] text-4xl text-white rounded-lg p-4">
-                Happening Right Now - Major Quals 2
-            </div>
-          
-            {/if}
         </div>
     </Countdown>
+
+    <div class="my-6 h-[2px] bg-white rounded-all w-[700px]"></div>
+
+    <header class="p-4 text-white bg-[#363638] w-[700px] flex justify-between items-center">
+      <h class="font-bold text-lg">May 26th 2024</h>
+      <div class="flex-grow text-center">
+        <h class="font-bold text-lg opacity-75">- By Omen -</h>
+      </div>
+      <h class="font-bold text-lg ml-auto">KxnalPk (250$)</h>
+    </header>
+
+    <header class="p-4 mt-2 text-white bg-[#363638] w-[700px] flex justify-between items-center">
+      <h class="font-bold text-lg">May 25th 2024</h>
+      <div class="flex-grow text-center">
+        <h class="font-bold text-lg opacity-75">- By Omen -</h>
+      </div>
+      <h class="font-bold text-lg ml-auto">agnt Ptr (100$)</h>
+    </header>
 </section>
