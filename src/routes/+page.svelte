@@ -1,20 +1,18 @@
 <script>
 
-	import { PUBLIC_WEBHOOK } from "$env/static/public"
-
     import "../app.css";
     let initialTextIdea = "I'm always seeking for ideas, so feel free to write down the idea so I can work on it! Also, leave your name so I can give you credits!";
 
     let projects = [
         {
-          name: "Hydrate",
-          url: "https://github.com/kunalduh/hydrate",
-          text: "Drinking water is really important for our health and we always forget that. This is a cross-platform mobile application that reminds you to drink water!"
+          name: "Neural Network",
+          url: "https://github.com/kunalduh/neural-network",
+          text: "A simple neural network written in golang using the iris machine learning dataset. This tells you the flower name when given the flower measurements."
         },
         {
-          name: "Frostmas",
-          url: "/frostmas",
-          text: "An organization that hosts fortnite tournaments in winter season every year for middle east and asian players. Distributted total 500$ as a prize pool. Returning soon!"
+          name: "Osume",
+          url: "https://osume.cc",
+          text: "An organization that hosts mini gaming cups, gaming nights etc for casual gamers. This organization runs completely on the donations we recieve from you all!"
         },
         {
           name: "Socket-CLI-Chat",
@@ -26,7 +24,7 @@
     let socials = [
         {
             name: "X",
-            url: "https://twitter.com/kunalsmh"
+            url: "https://x.com/kxnalpk"
         },
         {
             name: "Discord",
@@ -44,7 +42,7 @@
     ]
 
     async function handleSendClick() {
-        const webhookURL = PUBLIC_WEBHOOK;
+        const webhookURL = "x";
         // @ts-ignore
         const content = document.getElementById('idea').value;
 
@@ -63,8 +61,7 @@
 
             alert('Idea sent successfully to Kunal!');
         } catch (error) {
-            console.error('Error sending message to Kunal:', error);
-            alert('Failed to send idea to Kunal.');
+            alert('This feature is currently disabled.');
         }
     }
 </script>
